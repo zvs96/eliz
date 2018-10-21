@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.playInput ,.playNum{
+    position: absolute;
+    height: 5vh;
+    left: 5vw;
+    right: 5vw;
+    border: 1px solid green;
+}
+
+.playNum {
+    position: relative;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+}
+
+.playInput {
+    bottom: 5vh;
+}
+
+.playInput input {
+    width: 76%;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 2vh;
+}
+.playInput input:focus {
+    outline: 0;
+}
+
+.playInput button {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background: green;
+    color: white;
+    font-size: 2vh;
+    border-left: 1px solid green;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
